@@ -1,3 +1,4 @@
+set tags=./tags;,tags;
 set nocompatible
 set clipboard=unnamed
 
@@ -13,7 +14,7 @@ set backspace=indent,eol,start    " backspace behaves 'normally'
 
 " set softtabstop=2
 set smartindent
-set shiftwidth=4                  " [2]
+set shiftwidth=2                  " [2]
 set tabstop=4                     " tab is 4 spaces [2]
 set expandtab                   " use tabs
 
@@ -22,6 +23,7 @@ set nolinebreak
 "set nowrap
 
 set virtualedit=all               " Allow the cursor to go in to 'invalid' places
+
 
 set hlsearch                      " highlight search terms
 set incsearch                     " search incrementally
@@ -51,8 +53,8 @@ set list
 set listchars=tab:▸\ ,eol:¬
 highlight NonText guifg=#4a4a88
 highlight SpecialKey guifg=#4a8859
-hi Search guibg=peru guifg=wheat
-hi Search cterm=NONE ctermfg=grey ctermbg=blue
+"hi Search guibg=peru guifg=wheat
+hi Search cterm=NONE ctermfg=black ctermbg=blue
 
 
 " md, markdown, and mk are markdown and define buffer-local preview
